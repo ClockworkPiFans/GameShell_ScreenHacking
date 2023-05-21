@@ -20,10 +20,12 @@
 
 ### PCB打样
 - 梦中大佬的PCB设计图：
+    
     > https://github.com/Yvees/GameShellHacking/blob/main/PCB/adapter.PCB
 - PCB直接使用了梦中大佬的PCB文件，淘宝找卖家打样即可。
 - FPC连接器按照教程购买对应零件也没问题。
 - FPC连接器却是非常难焊的，因为间距非常小，最后我是找的打样厂家帮我搞定的。我找到的店铺是这家，老板手艺非常的好。
+    
     > https://item.taobao.com/item.htm?id=548377684758
 
 ### 3D打印外壳
@@ -47,7 +49,14 @@
 组装完后正常点亮可能屏幕显示会有问题，可以替换TF卡上对应的内核文件，这里也是使用的梦中大佬编译好的文件。
 > https://github.com/Yvees/GameShellHacking/tree/main/kernel_480p
 
+Launcher 分辨率一键更新脚本：
+
+```bash
+bash <(curl -s https://raw.fastgit.org/ClockworkPiFans/GameShell_ScreenHacking/main/scripts/fix_launcher.sh)
+```
+
 ### 最后
 还是要再次感谢网友【梦中大佬】和【V】，没有他们的指导不可能完成更换屏幕。
 如果喜欢欢迎互follow我的github。
+
 > https://github.com/Yvees
